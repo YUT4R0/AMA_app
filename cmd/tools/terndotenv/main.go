@@ -12,6 +12,8 @@ func main() {
 	}
 
 	cmd := exec.Command(
+		"cmd",
+		"/c",
 		"tern",
 		"migrate",
 		"--migrations",
